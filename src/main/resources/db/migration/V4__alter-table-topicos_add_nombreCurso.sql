@@ -1,0 +1,1 @@
+alter table topicos add nombre_curso varchar(200);
