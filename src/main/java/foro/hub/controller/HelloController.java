@@ -1,4 +1,4 @@
-package med.voll.api.controller;
+package foro.hub.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,12 +1,11 @@
-package med.voll.api.controller;
+package foro.hub.controller;
 
+import foro.hub.domain.usuarios.Usuario;
+import foro.hub.infra.security.DatosJWTtoken;
 import jakarta.validation.Valid;
-import med.voll.api.domain.usuarios.DatosAutenticacionUsuario;
-import med.voll.api.domain.usuarios.Usuario;
-import med.voll.api.infra.security.DatosJWTtoken;
-import med.voll.api.infra.security.TokenService;
+import foro.hub.domain.usuarios.DatosAutenticacionUsuario;
+import foro.hub.infra.security.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.neo4j.Neo4jProperties;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

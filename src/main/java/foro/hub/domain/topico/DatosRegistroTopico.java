@@ -1,4 +1,4 @@
-package med.voll.api.domain.topico;
+package foro.hub.domain.topico;
 
 import jakarta.validation.constraints.*;
 

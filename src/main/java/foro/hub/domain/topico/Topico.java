@@ -1,11 +1,11 @@
-package med.voll.api.domain.topico;
+package foro.hub.domain.topico;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.domain.usuarios.Usuario;
+import foro.hub.domain.usuarios.Usuario;
 
 import java.time.LocalDateTime;
 

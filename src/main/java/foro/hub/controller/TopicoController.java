@@ -1,10 +1,10 @@
-package med.voll.api.controller;
+package foro.hub.controller;
 
+import foro.hub.domain.topico.*;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import med.voll.api.domain.topico.*;
-import med.voll.api.domain.usuarios.Usuario;
-import med.voll.api.domain.usuarios.UsuarioRepository;
+import foro.hub.domain.usuarios.Usuario;
+import foro.hub.domain.usuarios.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
